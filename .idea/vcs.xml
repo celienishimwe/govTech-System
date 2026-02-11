@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/NotificationSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/arrays" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/fileinputandoutput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/inheritance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lists" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/maps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/polymorphism" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/practice" vcs="Git" />
+  </component>
+</project>
