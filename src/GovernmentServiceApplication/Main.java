@@ -79,37 +79,37 @@ public class Main {
 
                         System.out.println("Enter Your Full name:");
                         String FullName2  = user_input.nextLine();
-                        SA.setFullName(FullName1);
+                        SA.setFullName(FullName2);
 
                         System.out.println("Enter Your Father Name:");
                         String FatherName2  = user_input.nextLine();
-                        SA.setFatherName(FatherName1);
+                        SA.setFatherName(FatherName2);
 
                         System.out.println("Enter Your Date Of Birth:");
                         String DateOfBirth2 = user_input.nextLine();
-                        SA.setDateOfBirth(DateOfBirth);
+                        SA.setDateOfBirth(DateOfBirth2);
 
                         System.out.println("Enter Your Gender:");
                         String Gender2 = user_input.nextLine();
-                        SA.setGender(Gender);
+                        SA.setGender(Gender2);
 
                         System.out.println("Enter Your Place Of Birth:");
                         String PlaceOfBirth2 = user_input.nextLine();
-                        SA.setPlaceOfBirth(PlaceOfBirth);
+                        SA.setPlaceOfBirth(PlaceOfBirth2);
 
                         System.out.println("Enter Your MartialStatus:");
-                        String MartialStatus = user_input.nextLine();
-                        SA.setMartialStatus(MartialStatus);
+                        String MartialStatus2 = user_input.nextLine();
+                        SA.setMartialStatus(MartialStatus2 );
 
                         System.out.println("Enter Your Nationality:");
-                        String Nationality = user_input.nextLine();
-                        SA.setNationality(Nationality);
+                        String Nationality2 = user_input.nextLine();
+                        SA.setNationality(Nationality2 );
 
                         System.out.println("Enter Your NationalId:");
-                        String NationalId = user_input.nextLine();
-                        SA.setNationality(NationalId);
+                        String NationalId2 = user_input.nextLine();
+                        SA.setNationality(NationalId2);
 
-                        SA.ApplyingPassport(FullName2,FatherName2,DateOfBirth2,Gender2,MartialStatus,Nationality,NationalId);
+                        SA.ApplyingPassport(FullName2,FatherName2,DateOfBirth2,Gender2,MartialStatus2,Nationality2,NationalId2);
                         break;
 
                     case 3:
@@ -125,23 +125,23 @@ public class Main {
                             case 1:
                                 System.out.println("Enter Your Full name:");
                                 String FullName3 = user_input.nextLine();
-                                SA.setFullName(FullName1);
+                                SA.setFullName(FullName3);
 
                                 System.out.println("Enter Your Father Name:");
                                 String FatherName3  = user_input.nextLine();
-                                SA.setFatherName(FatherName1);
+                                SA.setFatherName(FatherName3);
 
                                 System.out.println("Enter Your Date Of Birth:");
                                 String DateOfBirth3 = user_input.nextLine();
-                                SA.setDateOfBirth(DateOfBirth);
+                                SA.setDateOfBirth(DateOfBirth3);
 
                                 System.out.println("Enter Your Gender:");
                                 String Gender3 = user_input.nextLine();
-                                SA.setGender(Gender);
+                                SA.setGender(Gender3);
 
                                 System.out.println("Enter Your Place Of Birth:");
                                 String PlaceOfBirth3 = user_input.nextLine();
-                                SA.setPlaceOfBirth(PlaceOfBirth);
+                                SA.setPlaceOfBirth(PlaceOfBirth3);
 
                                 MA.BirthCertificateService(FullName3,DateOfBirth3,Gender3,PlaceOfBirth3,FatherName3);
                                 break;
@@ -149,35 +149,35 @@ public class Main {
                             case 2:
                                 System.out.println("Enter Your Full name:");
                                 String FullName4  = user_input.nextLine();
-                                SA.setFullName(FullName1);
+                                SA.setFullName(FullName4);
 
                                 System.out.println("Enter Your Father Name:");
                                 String FatherName4  = user_input.nextLine();
-                                SA.setFatherName(FatherName1);
+                                SA.setFatherName(FatherName4);
 
                                 System.out.println("Enter Your Date Of Birth:");
                                 String DateOfBirth4 = user_input.nextLine();
-                                SA.setDateOfBirth(DateOfBirth);
+                                SA.setDateOfBirth(DateOfBirth4);
 
                                 System.out.println("Enter Your Gender:");
                                 String Gender4 = user_input.nextLine();
-                                SA.setGender(Gender);
+                                SA.setGender(Gender4);
 
                                 System.out.println("Enter Your Place Of Birth:");
                                 String PlaceOfBirth4 = user_input.nextLine();
-                                SA.setPlaceOfBirth(PlaceOfBirth);
+                                SA.setPlaceOfBirth(PlaceOfBirth4);
 
                                 System.out.println("Enter Your MartialStatus:");
                                 String MartialStatus4 = user_input.nextLine();
-                                SA.setMartialStatus(MartialStatus);
+                                SA.setMartialStatus(MartialStatus4);
 
                                 System.out.println("Enter Your Nationality:");
                                 String Nationality4 = user_input.nextLine();
-                                SA.setNationality(Nationality);
+                                SA.setNationality(Nationality4);
 
                                 System.out.println("Enter Your NationalId:");
                                 String NationalId4 = user_input.nextLine();
-                                SA.setNationality(NationalId);
+                                SA.setNationality(NationalId4);
 
                                 MA.ApplyingPassport(FullName4,FatherName4,DateOfBirth4,Gender4,MartialStatus4,Nationality4,NationalId4);
                                 break;
